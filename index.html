@@ -1158,7 +1158,7 @@
 .ax-stat{background:#f4f8fc;border:1px solid #dbe7f1;border-radius:7px;text-align:center;padding:8px 5px;color:#334e68;font-size:.76rem}
 .ax-stat strong{display:block;color:#235a8a;font-size:1.48rem}
 .ax-bar{display:flex;gap:3px;height:16px;margin:10px 0 5px}
-.ax-bar span{flex:1;background:#dfeaf4;border-radius:3px}.ax-bar span.ax-selected{background:#278071}
+.ax-bar span{flex:1;background:#dfeaf4;border-radius:3px}.ax-bar span.ax-selected{background:#278071}.ax-bar span.ax-pending{background:#e8a13d}
 .ax-facts{border-top:1px solid #dde8ef;margin:13px 0 0;padding:11px 0 0}.ax-facts dt{font-weight:750;font-size:.8rem;color:#26496a;margin:8px 0 2px}.ax-facts dd{margin:0;color:#40596f;font-size:.84rem;line-height:1.6}
 .ax-detail-strip{margin-bottom:20px}.ax-actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}.ax-action{font:inherit;font-size:.82rem;font-weight:750;cursor:pointer;padding:7px 12px;border:1px solid #a9c1d5;border-radius:6px;color:#234f75;background:#f4f9fd;text-decoration:none}.ax-action:disabled{opacity:.45;cursor:default}
 #ax-test{width:min(680px,calc(100% - 28px));max-height:85vh;overflow:auto;border:1px solid #adc3d6;border-radius:12px;color:#233f57;padding:22px}
@@ -1361,7 +1361,7 @@
       <article class="glass-card ax-board">
         <h3 class="section-title">🤝 외부 협업체계</h3>
         <p class="ax-sub">종합현황 2026년 10월 말 기준</p>
-        <div class="table-container"><table>
+        <div class="table-container" data-sheet-table="coop"><table>
           <thead><tr><th style="width:130px">구분</th><th>운영 방식</th><th style="width:200px">적용 대상</th></tr></thead>
           <tbody>
             <tr><td><strong>In-bound</strong></td><td>AI 오픈랩 플랫폼을 통한 상시 제안접수</td><td>민간기업(스타트업·벤처)</td></tr>
@@ -1377,7 +1377,7 @@
           <dt>협력 대상</dt><dd>AI대학원(10개, AI 원천기술 연구) · AI융합혁신대학원(9개, 산업 현장 특화 연계형) · 대학 AI 연구소(160여 개, 산학협력단 소속)</dd>
           <dt>추진방식</dt><dd>기술 제안을 기다리는 방식에서 학계로 찾아가 직접 제안하는 방식으로 — 기관별 맞춤형 협력 제안서를 작성·제안하고, 교류·자문을 공동연구·실증·R&amp;D 후속 협력으로 연계</dd>
         </dl>
-        <div class="table-container"><table>
+        <div class="table-container" data-sheet-table="fields"><table>
           <thead><tr><th style="width:170px">협력분야</th><th>주요 내용</th></tr></thead>
           <tbody>
             <tr><td><strong>도시 안전 및 관제</strong></td><td>CCTV 기반 이상행동·밀집도·행동예측 기술의 관제업무 적용 검토, 공공 안전관리 분야 실증 및 데이터 활용 가능성 검토</td></tr>
@@ -1391,7 +1391,7 @@
       <article class="glass-card ax-board">
         <h3 class="section-title">🏆 국가 R&amp;D 최종 선정 과제 (’26.9.30.)</h3>
         <p class="ax-sub">과기정통부·행안부 국가 R&amp;D 공모 최종 선정 — 서면평가(8.26.) → 2차 평가(9.8.~9.25.) → 최종결과 발표(9.30.)</p>
-        <div class="table-container"><table>
+        <div class="table-container" data-sheet-table="rnd"><table>
           <tbody>
             <tr><th style="width:130px">공모분야</th><td>2026년도 3차 국민생활안전 긴급대응연구[2단계] 기술개발 및 실증사업 (과기정통부–행안부 R&amp;D)</td></tr>
             <tr><th>R&amp;D 사업명</th><td>폭설에 대응 가능한 반자율주행 보도 및 이면도로 제설로봇 개발 및 실증</td></tr>
@@ -1404,7 +1404,7 @@
 
       <article class="glass-card ax-board">
         <h3 class="section-title">🧪 AI 오픈랩 운영 절차</h3>
-        <div class="table-container"><table>
+        <div class="table-container" data-sheet-table="openlab-steps"><table>
           <thead><tr><th style="width:130px">단계</th><th>내용</th></tr></thead>
           <tbody>
             <tr><td><strong>모집·홍보</strong></td><td>AI 오픈랩 전용 웹페이지 상시 운영, AI 스타트업·벤처기업 중심 홍보 추진</td></tr>
@@ -1437,7 +1437,7 @@
       <article class="glass-card ax-board">
         <h3 class="section-title">📐 AI 실증협업 운영체계</h3>
         <p class="ax-sub">데이터·인프라 제공 범위와 개인정보·보안·사후처리 판단기준을 표준화 — 협업 목적 달성에 필요한 범위에서 제한적 제공, 사전 검토와 승인 절차 후 운영</p>
-        <div class="table-container"><table>
+        <div class="table-container" data-sheet-table="system"><table>
           <thead><tr><th style="width:130px">구분</th><th>주요 내용</th></tr></thead>
           <tbody>
             <tr><td><strong>운영기준</strong></td><td>AI 실증협업 운영기준 및 관리지침 마련 ※일부 개정(’26.9.30.)</td></tr>
@@ -1455,7 +1455,7 @@
       <article class="glass-card ax-board">
         <h3 class="section-title">🔭 AI R&amp;D 사업 동향</h3>
         <p class="ax-sub">’26년 전체 R&amp;D 예산 35.5조 원, AI 관련 예산 9.9조 원(지원사업 738개) 규모 · 현장 적용 가능성과 수요기관 연계를 고려한 생태계 지원 방향</p>
-        <div class="table-container"><table>
+        <div class="table-container" data-sheet-table="rnd-trend"><table>
           <thead><tr><th style="width:110px">구분</th><th>주요내용</th><th>특징</th><th style="width:210px">기관·사업예시</th></tr></thead>
           <tbody>
             <tr><td><strong>국가 R&amp;D</strong></td><td>중앙부처 주관, 국가 예산 기반 기술개발 및 실증지원</td><td>TRL(기술성숙도) 기준적용, 수요처 참여형 실증 확대</td><td>과기정통부, 국토부, 산업부, 중기부 등</td></tr>
@@ -1528,7 +1528,7 @@
 <article class="glass-card ax-board">
         <h3 class="section-title">🧭 공단 AI 윤리원칙</h3>
         <p class="ax-sub">서울시 「인공지능 활용 윤리 지침」의 AI 활용 기본 원칙에 근거한 자율적 참고 기준 · 공단이 기획·개발·도입·운영·활용하는 모든 AI 업무·시스템에 적용</p>
-        <div class="table-container"><table>
+        <div class="table-container" data-sheet-table="ethics"><table>
           <thead><tr><th style="width:90px">관점</th><th style="width:150px">원칙</th><th>주요 내용</th></tr></thead>
           <tbody>
             <tr><td rowspan="3"><strong>시민</strong></td><td>공공성</td><td>공익 및 시민복리 증진을 최우선 기준으로 AI 활용</td></tr>
@@ -1546,7 +1546,7 @@
       <article class="glass-card ax-board">
         <h3 class="section-title">⚖️ 인공지능기본법 대응 (시행 ’26.1.22., 과기정통부)</h3>
         <p class="ax-sub">투명성 확보 의무 (법 제31조)</p>
-        <div class="table-container"><table>
+        <div class="table-container" data-sheet-table="ailaw31"><table>
           <thead><tr><th style="width:110px">구분</th><th>적용 범위</th><th>의무 사항</th><th style="width:150px">제재 사항</th></tr></thead>
           <tbody>
             <tr><td><strong>사전고지</strong> (제1항)</td><td>고영향·생성형 AI 기반 제품·서비스 제공</td><td>AI에 기반하여 운용된다는 사실을 이용자에게 사전고지</td><td>위반 시 3천만 원 이하 과태료</td></tr>
@@ -1555,7 +1555,7 @@
           </tbody>
         </table></div>
         <p class="ax-sub">고영향 AI 관련 의무 (법 제33조~제35조)</p>
-        <div class="table-container"><table>
+        <div class="table-container" data-sheet-table="ailaw33"><table>
           <thead><tr><th style="width:110px">구분</th><th>적용 범위</th><th>의무 사항</th></tr></thead>
           <tbody>
             <tr><td><strong>고영향 AI 확인</strong> (제33조)</td><td rowspan="3">고영향 AI 또는 이를 이용한 제품·서비스 제공 시</td><td>고영향 AI 해당 여부 사전 검토 의무, 필요 시 과기정통부 확인 요청 가능</td></tr>
@@ -1568,7 +1568,7 @@
       <article class="glass-card ax-board">
         <h3 class="section-title">🔎 투명성 확보 의무 단계별 확인 절차</h3>
         <p class="ax-sub">추진 경과: AI외부위원 자문(4월) → 이행방안 마련·전부서 공유(5월)</p>
-        <div class="table-container"><table>
+        <div class="table-container" data-sheet-table="transparency"><table>
           <thead><tr><th>사전검토 단계</th><th>계약 단계</th><th>준공·검수 단계</th></tr></thead>
           <tbody>
             <tr>
@@ -1588,7 +1588,7 @@
       <article class="glass-card ax-board">
         <h3 class="section-title">🔐 개인정보보호법 대응 (개인정보보호위원회)</h3>
         <p class="ax-sub">자동화된 결정에 대한 정보주체의 권리 (제37조의2)</p>
-        <div class="table-container"><table>
+        <div class="table-container" data-sheet-table="privacy"><table>
           <thead><tr><th style="width:130px">구분</th><th>적용 범위</th></tr></thead>
           <tbody>
             <tr><td><strong>거부권</strong> (제1항)</td><td>완전 자동화된 시스템(AI 포함)으로 처리된 결정이 정보주체의 권리·의무에 중대한 영향을 미치는 경우 해당 결정 거부 가능</td></tr>
@@ -1602,7 +1602,7 @@
       <article class="glass-card ax-board">
         <h3 class="section-title">🌐 ISO/IEC 42001 검토 (AI 경영시스템 국제표준)</h3>
         <p class="ax-sub">AI를 조직의 경영시스템(AIMS)으로 관리하기 위한 국제표준 — 공단 AI 활용의 책임·거버넌스 체계 구조화와 시민·이해관계자 신뢰 확보 기반</p>
-        <div class="table-container"><table>
+        <div class="table-container" data-sheet-table="iso42001"><table>
           <thead><tr><th style="width:90px">구분</th><th style="width:110px">항목</th><th>세부 내용</th></tr></thead>
           <tbody>
             <tr><td rowspan="4"><strong>Plan</strong></td><td>조직상황</td><td>① 조직 및 조직 상황의 이해 ② 이해관계자 니즈와 기대 이해 ③ 적용범위 결정 ④ 품질경영시스템과 그 프로세스</td></tr>
@@ -1653,9 +1653,9 @@
 </div>
 <article class="glass-card ax-board">
 <h3 class="section-title">직원 AI 활용 콘텐츠 발행</h3>
-<p class="ax-sub">7월 첫 편부터 10월까지 총 <strong>4편</strong>을 공유했습니다.</p>
-<div class="ax-bar" role="img" aria-label="7~10월 직원 AI 활용 콘텐츠 4편 공개"><span class="ax-selected"></span><span class="ax-selected"></span><span class="ax-selected"></span><span class="ax-selected"></span></div>
-<div class="ax-ep-labels" aria-hidden="true"><span>EP.01</span><span>EP.02</span><span>EP.03</span><span>EP.04</span></div>
+<p class="ax-sub" id="ep-bars-caption">7월 첫 편부터 10월까지 총 <strong>4편</strong>을 공유했습니다.</p>
+<div class="ax-bar" id="ep-bars-bar" role="img" aria-label="7~10월 직원 AI 활용 콘텐츠 4편 공개"><span class="ax-selected"></span><span class="ax-selected"></span><span class="ax-selected"></span><span class="ax-selected"></span></div>
+<div class="ax-ep-labels" id="ep-bars-labels" aria-hidden="true"><span>EP.01</span><span>EP.02</span><span>EP.03</span><span>EP.04</span></div>
 <dl class="ax-facts"><dt>다룬 사례</dt><dd>인수인계, 설계서 검증, 질문 방식에 따라 결과가 달라지는 사례(10월)</dd></dl>
 </article>
 <article class="glass-card ax-board">
@@ -1674,7 +1674,7 @@
       <article class="glass-card ax-board">
         <h3 class="section-title">📚 공감·실험 시리즈 발행 현황</h3>
         <p class="ax-sub">「공감 시리즈」 우리들의 이야기 — 업무 속 작은 고민에서 시작하는 AI 활용기 · 「실험 시리즈」 AI랑 같이 해볼까? — 업무문제를 AI와 풀어보는 좌충우돌 실험기</p>
-        <div class="table-container"><table>
+        <div class="table-container" data-sheet-table="series"><table>
           <thead><tr><th style="width:80px">발행</th><th>제목</th><th>내용</th></tr></thead>
           <tbody>
             <tr><td>7월</td><td><strong>EP.01</strong> 우리의 AI, 그렇게 시작되었습니다</td><td>직원들의 AI 사용 경험과 응용 방법을 소개해 AI와의 거리감 해소</td></tr>
@@ -1699,7 +1699,7 @@
       <article class="glass-card ax-board">
         <h3 class="section-title">🏛️ 유관기관 및 연계 현황</h3>
         <p class="ax-sub">정부</p>
-        <div class="table-container"><table>
+        <div class="table-container" data-sheet-table="agencies-gov"><table>
           <thead><tr><th style="width:200px">기관(조직)명</th><th>AI 관련 역할 및 주요 업무</th></tr></thead>
           <tbody>
             <tr><td>과학기술정보통신부</td><td>국가 AI 정책 총괄 및 기술 연구개발(R&amp;D), 국가 데이터·인프라 구축 주도</td></tr>
@@ -1713,7 +1713,7 @@
           </tbody>
         </table></div>
         <p class="ax-sub">서울시</p>
-        <div class="table-container"><table>
+        <div class="table-container" data-sheet-table="agencies-seoul"><table>
           <thead><tr><th style="width:200px">기관(조직)명</th><th>AI 관련 역할 및 주요 업무</th></tr></thead>
           <tbody>
             <tr><td>디지털도시국</td><td>디지털 행정혁신 및 스마트도시 기반 공공 디지털 정책 총괄</td></tr>
